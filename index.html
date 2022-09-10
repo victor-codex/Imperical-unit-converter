@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Unit Conversion</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Metric/Imperial Unit Conversion</h1>
+      <div class="input-container">
+        <input type="text" name="input-el" class="input-field" id="input-el" />
+      </div>
+      <div class="btn">
+        <button id="convert-btn">Convert</button>
+      </div>
+    </header>
+    <section class="section">
+      <div class="section-container">
+        <h2>Length(meter/feet)</h2>
+        <p id="length-el">meters = feet | feet = meters</p>
+      </div>
+      <div class="section-container">
+        <h2>Volume(litres/Gallons)</h2>
+        <p id="volume-el">litres = feet | gallons = meters</p>
+      </div>
+      <div class="section-container">
+        <h2>Mass(kilograms/Pounds)</h2>
+        <p id="mass-el">kilos = feet | pounds = meters</p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
